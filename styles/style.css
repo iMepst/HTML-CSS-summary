@@ -4,6 +4,10 @@ body {
     background-color: rgb(241, 234, 255);
 }
 
+main {
+    text-align: left;
+}
+
 h1 {
     font-family: 'Fira Sans', sans-serif;
     font-size: 32px;
