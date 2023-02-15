@@ -1,18 +1,63 @@
 body {
-    text-align: center;
-    margin: 30px;
-    background-color: rgb(241, 234, 255);
+  text-align: center;
+  margin: 30px;
+  background-color: rgb(241, 234, 255);
+  font-family: "Fira Sans", sans-serif;
 }
 
+img {
+    height: 150px;
+  }
+
 main {
-    text-align: left;
+  text-align: left;
+  width: 650px;
+  margin: 25px auto;
+  background-color: rgb(133, 76, 208);
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 8px;
+  color: rgb(244, 234, 250);
 }
 
 h1 {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 32px;
+  font-size: 32px;
 }
 
-img{
-    height: 100px;
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
+}
+
+ol {
+  list-style: none;
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+li {
+  padding: 5px;
+}
+
+span {
+  background-color: rgb(250, 237, 189);
+  color: black;
+  padding: 2px 4px 2px 4px;
+  border-radius: 8px;
+}
+
+a {
+    background-color: rgb(241, 203, 78);
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+a:hover {
+    background-color: rgb(241, 189, 69);
 }
