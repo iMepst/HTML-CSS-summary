@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    margin: 30px;
+    background-color: rgb(241, 234, 255);
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 32px;
+}
+
+img{
+    height: 100px;
+}
