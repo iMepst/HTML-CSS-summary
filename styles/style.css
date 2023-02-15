@@ -49,13 +49,18 @@ span {
   border-radius: 8px;
 }
 
+.highlight {
+    color: rgb(241, 203, 78);;
+}
+
 a {
     background-color: rgb(241, 203, 78);
     color: black;
     padding: 10px;
     border-radius: 8px;
     text-decoration: none;
-    margin: 5px;
+    margin: 2px;
+    display: inline-block;
 }
 
 a:hover {
