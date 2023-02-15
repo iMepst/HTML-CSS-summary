@@ -5,23 +5,24 @@ body {
   font-family: "Fira Sans", sans-serif;
 }
 
-img {
-    height: 150px;
-  }
+header img {
+  height: 150px;
+}
 
 main {
   text-align: left;
-  width: 650px;
+  width: 700px;
   margin: 25px auto;
   background-color: rgb(133, 76, 208);
-  padding: 30px;
+  padding: 32px;
   border: 1px solid black;
   border-radius: 8px;
   color: rgb(244, 234, 250);
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 52px;
+  color: rgb(88, 49, 196);
 }
 
 h2 {
@@ -39,30 +40,35 @@ ol {
 }
 
 li {
-  padding: 5px;
-}
-
-span {
-  background-color: rgb(250, 237, 189);
-  color: black;
-  padding: 2px 4px 2px 4px;
-  border-radius: 8px;
+  margin: 14px;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
 }
 
 .highlight {
-    color: rgb(241, 203, 78);;
+  color: rgb(241, 203, 78);
+  border-color: rgb(241, 203, 78);
 }
 
-a {
-    background-color: rgb(241, 203, 78);
-    color: black;
-    padding: 10px;
-    border-radius: 8px;
-    text-decoration: none;
-    margin: 2px;
-    display: inline-block;
+main a {
+    background-color: rgb(250, 237, 189);
+  color: black;
+  padding: 2px 4px 2px 4px;
+  border-radius: 8px;
+  text-decoration: none;
+
+}
+
+footer a {
+  background-color: rgb(241, 203, 78);
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 2px;
+  display: inline-block;
 }
 
 a:hover {
-    background-color: rgb(241, 189, 69);
+  background-color: rgb(241, 189, 69);
 }
